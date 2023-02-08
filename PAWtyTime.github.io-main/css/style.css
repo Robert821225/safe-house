@@ -139,12 +139,15 @@ a:focus {
 }
 
 .header_section {
-  background: rgb(82, 61, 21);
+  background: rgba(161, 77, 20, 0.65);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
-  /* padding: 15px 0; */
-  top: 40px;
+  /* padding: 10px; */
+  width: 1350px;
+  bottom:510px;
+  top: 0px;
+  position: fixed;
 }
 
 .header_section .container-fluid {
